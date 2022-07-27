@@ -1,0 +1,26 @@
+.RepoCard-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.RepoCard-title {
+    font-family: sans-serif;
+    margin-top: 8px;
+    color: #57606a;
+    font-weight: 100;
+}
+
+.RepoCard-description {
+    color: grey;
+    width: 400px;
+    overflow: hidden;
+    max-height: 8rem;
+    -webkit-box-orient: vertical;
+    display: block;
+    display: -webkit-box;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+}

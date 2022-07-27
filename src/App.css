@@ -28,11 +28,14 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.App-title {
+  color: #57606a;
+  text-align: center;
+  font-size: 4em;
+  font-family: 'sans-serif';
+  font-weight: 400;
+  
 }
+
